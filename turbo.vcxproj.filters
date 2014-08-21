@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="engine">
+      <UniqueIdentifier>{3259625d-f745-492f-b684-d3c472ac317e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="window">
+      <UniqueIdentifier>{be006a9a-fb26-4ada-87d4-9f7fb0536cd6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="utilities">
+      <UniqueIdentifier>{a6302b94-27ad-4ea4-aa1f-750e7f12300b}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\engine\engine.cpp">
+      <Filter>engine</Filter>
+    </ClCompile>
+    <ClCompile Include="src\engine\gpu_device_context_d3d11.cpp">
+      <Filter>engine</Filter>
+    </ClCompile>
+    <ClCompile Include="src\engine\gpu_device_d3d11.cpp">
+      <Filter>engine</Filter>
+    </ClCompile>
+    <ClCompile Include="src\utilities\color.cpp">
+      <Filter>utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="src\utilities\logger.cpp">
+      <Filter>utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="src\window\window_win32.cpp">
+      <Filter>window</Filter>
+    </ClCompile>
+    <ClCompile Include="src\main.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\engine\engine.h">
+      <Filter>engine</Filter>
+    </ClInclude>
+    <ClInclude Include="src\engine\gpu_device_context_d3d11.h">
+      <Filter>engine</Filter>
+    </ClInclude>
+    <ClInclude Include="src\engine\gpu_device_d3d11.h">
+      <Filter>engine</Filter>
+    </ClInclude>
+    <ClInclude Include="src\utilities\color.h">
+      <Filter>utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="src\utilities\logger.h">
+      <Filter>utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="src\utilities\std_types.h">
+      <Filter>utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="src\window\window_win32.h">
+      <Filter>window</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
